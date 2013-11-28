@@ -2,7 +2,7 @@ package Win32::FileSecurity;
 
 use Carp;
 
-$VERSION = '1.08';
+$VERSION = '1.09';
 
 require Win32 unless defined &Win32::IsWinNT;
 croak "The Win32::FileSecurity module works only on Windows NT" unless Win32::IsWinNT();
